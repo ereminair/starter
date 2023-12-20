@@ -22,7 +22,7 @@ jobs:
         # Устанавливаем зависимости
         run: pip install -r requirements.txt
       - name: Run tests
-        run: tests.py
+        run: run tests.py
       - name: Tests report
         run: coverage report 
   run_tests1:
